@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>跨境电商专线</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#070b14;
+    color:#eef4ff;
+    font-family:-apple-system,BlinkMacSystemFont,
+    "Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+}
+
+body:before{
+    content:"";
+    position:fixed;
+    inset:-30%;
+    background:
+        radial-gradient(circle at 50% 10%,#123b6b66,transparent 35%),
+        radial-gradient(circle at 85% 45%,#174b9b33,transparent 30%);
+    pointer-events:none;
+}
+
+.wrap{
+    position:relative;
+    max-width:1080px;
+    margin:auto;
+    padding:64px 22px 80px;
+}
+
+.hero{
+    text-align:center;
+    padding:20px 0 48px;
+}
+
+.badge{
+    display:inline-block;
+    padding:8px 16px;
+    border:1px solid #27527f;
+    border-radius:999px;
+    color:#70bdff;
+    background:#0d1c2d;
+    font-size:13px;
+}
+
+h1{
+    font-size:48px;
+    margin:22px 0 14px;
+    letter-spacing:1px;
+}
+
+.hero p{
+    margin:0 auto;
+    color:#9da9bb;
+    font-size:17px;
+    max-width:700px;
+    line-height:1.8;
+}
+
+.section{
+    margin-top:30px;
+}
+
+.section h2{
+    font-size:24px;
+    margin:0 0 18px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+}
+
+.card{
+    background:linear-gradient(145deg,#111a29,#0d1420);
+    border:1px solid #26364b;
+    border-radius:24px;
+    padding:28px;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 18px 50px #0005;
+}
+
+.card.recommend{
+    border-color:#3189d8;
+    box-shadow:0 18px 60px #086dcc22;
+}
+
+.tag{
+    position:absolute;
+    right:20px;
+    top:18px;
+    background:#1679d9;
+    color:white;
+    border-radius:999px;
+    padding:6px 11px;
+    font-size:12px;
+}
+
+.name{
+    font-size:20px;
+    font-weight:700;
+}
+
+.price{
+    font-size:42px;
+    font-weight:800;
+    margin:14px 0;
+}
+
+.price small{
+    font-size:14px;
+    color:#8795a8;
+    font-weight:400;
+}
+
+.desc{
+    color:#aeb9c9;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0 0 22px;
+}
+
+li{
+    color:#dce5f2;
+    padding:7px 0;
+    font-size:14px;
+}
+
+li:before{
+    content:"✓";
+    color:#55b5ff;
+    margin-right:9px;
+}
+
+button{
+    width:100%;
+    border:0;
+    border-radius:14px;
+    padding:14px;
+    background:#187ee0;
+    color:#fff;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+button:hover{
+    filter:brightness(1.12);
+}
+
+.contact-card{
+    margin-top:28px;
+    padding:22px 24px;
+    border:1px solid #2a5278;
+    border-radius:20px;
+    background:linear-gradient(135deg,#0d1b2c,#0c1420);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+}
+
+.contact-title{
+    font-size:19px;
+    font-weight:700;
+}
+
+.contact-desc{
+    margin-top:7px;
+    color:#8f9caf;
+    font-size:13px;
+    line-height:1.6;
+}
+
+.contact-btn{
+    display:inline-block;
+    flex:none;
+    padding:12px 20px;
+    border-radius:12px;
+    background:#187ee0;
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:700;
+}
+
+.note{
+    text-align:center;
+    color:#738096;
+    font-size:13px;
+    margin-top:34px;
+}
+
+@media(max-width:700px){
+
+    .wrap{
+        padding-top:35px;
+    }
+
+    h1{
+        font-size:36px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:24px;
+    }
+
+    .contact-card{
+        flex-direction:column;
+        align-items:stretch;
+        text-align:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<section class="hero">
+
+<span class="badge">CROSS-BORDER NETWORK</span>
+
+<h1>跨境电商专线</h1>
+
+<p>
+高速线路、马来西亚、印尼、菲律宾、澳大利亚等多地区优质节点
+</p>
+
+</section>
+
+
+<!-- 年度套餐 -->
+
+<section class="section">
+
+<h2>年度套餐</h2>
+
+<div class="grid">
+
+
+<!-- 268 -->
+
+<div class="card">
+
+<div class="name">年度基础版</div>
+
+<div class="price">
+¥268 <small>/ 年</small>
+</div>
+
+<div class="desc">
+适合日常跨境电商使用
+</div>
+
+<ul>
+<li>月流量 100GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'年度基础版',
+'268',
+'100GB/月',
+'1年',
+'https://qr.alipay.com/2m6104403dfkx2t8jnoig42'
+)">
+立即购买
+</button>
+
+</div>
+
+
+<!-- 388 -->
+
+<div class="card">
+
+<div class="name">年度标准版</div>
+
+<div class="price">
+¥388 <small>/ 年</small>
+</div>
+
+<div class="desc">
+更充足的月度流量
+</div>
+
+<ul>
+<li>月流量 320GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'年度标准版',
+'388',
+'320GB/月',
+'1年',
+'https://qr.alipay.com/2m618744zubnrfakf0mmc85'
+)">
+立即购买
+</button>
+
+</div>
+
+
+<!-- 500 -->
+
+<div class="card recommend">
+
+<span class="tag">推荐</span>
+
+<div class="name">年度高级版</div>
+
+<div class="price">
+¥500 <small>/ 年</small>
+</div>
+
+<div class="desc">
+适合高频跨境业务
+</div>
+
+<ul>
+<li>月流量 750GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'年度高级版',
+'500',
+'750GB/月',
+'1年',
+'https://qr.alipay.com/2m6110652ed8rfjakwqqz77'
+)">
+立即购买
+</button>
+
+</div>
+
+
+<!-- 680 -->
+
+<div class="card">
+
+<div class="name">年度旗舰版</div>
+
+<div class="price">
+¥680 <small>/ 年</small>
+</div>
+
+<div class="desc">
+大流量年度方案
+</div>
+
+<ul>
+<li>月流量 1000GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'年度旗舰版',
+'680',
+'1000GB/月',
+'1年',
+'https://qr.alipay.com/2m613869o0qhnzhi9wxn4e7'
+)">
+立即购买
+</button>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- 一次性流量 -->
+
+<section class="section">
+
+<h2>一次性流量套餐</h2>
+
+<div class="grid">
+
+
+<!-- 168 -->
+
+<div class="card">
+
+<div class="name">一次性 320G</div>
+
+<div class="price">
+¥168
+</div>
+
+<div class="desc">
+一次性流量，无月度重置
+</div>
+
+<ul>
+<li>总流量 320GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'一次性320G',
+'168',
+'320GB',
+'一次性',
+'https://qr.alipay.com/2m614729ckeput1l2yomg52'
+)">
+立即购买
+</button>
+
+</div>
+
+
+<!-- 290 -->
+
+<div class="card">
+
+<div class="name">一次性 750G</div>
+
+<div class="price">
+¥290
+</div>
+
+<div class="desc">
+一次性流量，无月度重置
+</div>
+
+<ul>
+<li>总流量 750GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'一次性750G',
+'290',
+'750GB',
+'一次性',
+'https://qr.alipay.com/2m618586uiatuvcjxglyt61'
+)">
+立即购买
+</button>
+
+</div>
+
+
+<!-- 399 -->
+
+<div class="card">
+
+<div class="name">一次性 1500G</div>
+
+<div class="price">
+¥399
+</div>
+
+<div class="desc">
+大容量一次性流量
+</div>
+
+<ul>
+<li>总流量 1500GB</li>
+<li>15国通用节点</li>
+<li>家宽、住宅线路优化</li>
+<li>支持安卓、苹果、电脑</li>
+</ul>
+
+<button onclick="buy(
+'一次性1500G',
+'399',
+'1500GB',
+'一次性',
+'https://qr.alipay.com/2m611058eelxb6karkrod48'
+)">
+立即购买
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- 专线定制 -->
+
+<div class="contact-card">
+
+<div>
+
+<div class="contact-title">
+专线定制
+</div>
+
+<div class="contact-desc">
+需要定制线路、节点或流量方案？联系客服咨询
+</div>
+
+</div>
+
+<a
+class="contact-btn"
+href="https://t.me/kio_037"
+target="_blank"
+rel="noopener"
+>
+联系定制
+</a>
+
+</div>
+
+
+<div class="note">
+实际线路与服务范围以购买页面及服务说明为准
+</div>
+
+</div>
+
+
+<script>
+
+function buy(name,price,traffic,duration,pay){
+
+location.href =
+'buy.html?name=' +
+encodeURIComponent(name) +
+'&price=' +
+price +
+'&traffic=' +
+encodeURIComponent(traffic) +
+'&duration=' +
+encodeURIComponent(duration) +
+'&pay=' +
+encodeURIComponent(pay);
+
+}
+
+</script>
+
+</body>
+</html>
